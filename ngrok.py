@@ -5,9 +5,7 @@ def install_ngrok(TOKEN):
     from zipfile import ZipFile
     from urllib.request import urlretrieve
     from subprocess import Popen, PIPE, run
-    
-    TOKEN = "1hYCOPDOiUDMSRJ1zhs02MKWlip_4KktQPqSx28d3yhMaBsX3"
-
+        
     url = 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
     urlretrieve(url, 'ngrok-amd64.zip')
         
