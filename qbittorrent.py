@@ -24,6 +24,7 @@ class qbit:
         tunnel_url = tunnel_url.replace("https", "http")
         print('Running at localhost: ' + str(self.port))
         print(tunnel_url)
+        self.tun = tunnel_url
 
 
     def start(self):
